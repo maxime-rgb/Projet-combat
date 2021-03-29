@@ -1,0 +1,79 @@
+.cadre{
+    border: 1px rgb(95, 95, 95);
+    height: 20vw;
+    text-align: center;
+    background: url(../images/champ.png) no-repeat;
+    background-size: cover;
+    margin: 1vw;
+    color: white;
+}
+.nbperso{
+    font-size: x-large;
+    text-align: center;
+    margin-top: 3vw;
+}
+
+.combat{
+    text-align: center;
+    border: 1px rgb(95, 95, 95) solid;
+    background-color: #af9979;
+    margin: 1vw;
+}
+legend.info{
+    padding-top: 3vw;
+}
+legend.attack{
+    padding-top: 3vw;
+}
+
+fieldset p{
+    margin-top: 4vw;
+}
+
+.stylea{
+    font-size: 2vw;
+    background-color: grey;
+    border-color: grey;
+}
+
+.stylea:hover{
+    background-color: rgb(139, 8, 8);
+    text-decoration: none;
+    border-color: red;
+    color: rgb(194, 194, 194);
+}
+
+.myname{
+    font-size: 2vw;
+    color: rgb(248, 170, 0);
+}
+
+.card{
+    height: 20vw;
+}
+.card p{
+    margin-top: 6vw;
+}
+
+.card.guerrier {  
+background-image: url("../images/guerrier.jpg");
+background-size: cover;
+color: white;
+font-size: large;
+}
+
+.card.archer { 
+background-image: url("../images/archer.jpg");
+background-size: cover;
+font-size: large;
+}
+
+.card.magicien {  
+background-image: url("../images/mage.png");
+background-size: cover  ;
+font-size: large;
+}
+
+
+
+
